@@ -21,14 +21,6 @@
 <body>
 <div id="app"></div>
 <script>
-    var gitalkConfig = {
-      clientID: '4a657aa4ae6c0f1862a1',
-      clientSecret: '94793d5bac0c884a8798ea941f7c5bc9fb004720',
-      repo: 'sunhhw.github.io',
-      owner: 'sunhhw',
-      admin: ["sunhhw"],
-      distractionFreeMode: false
-    };
     window.$docsify = {
       name: '孙半仙人',
       repo: 'https://github.com/sunhhw/sunhhw.github.io',
@@ -47,34 +39,7 @@
         previousText: 'PREVIOUS',
         nextText: 'NEXT',
         crossChapter: true
-      },
-      plugins: [
-        function (hook, vm) {
-          hook.doneEach(function() {
-            var label, domObj, main, divEle, gitalk;
-            label = md5(decodeURI(vm.route.path.split("/").pop()));
-            domObj = Docsify.dom;
-            main = domObj.getNode("#main");
-
-            Array.apply(
-              null,
-              document.querySelectorAll("div.gitalk-container")
-            ).forEach(function(ele) {
-              ele.remove();
-            });
-      
-            divEle = domObj.create("div");
-            divEle.id = "gitalk-container-" + label;
-            divEle.className = "gitalk-container";
-            divEle.style = "width: " + main.clientWidth + "px; margin: 0 auto 20px;";
-            domObj.appendTo(domObj.find(".content"), divEle);
-            gitalk = new Gitalk(
-              Object.assign(gitalkConfig, { id: !label ? "home" : label })
-            );
-            gitalk.render("gitalk-container-" + label);
-          });
-        }
-      ]
+      }
     }                                 
   </script>
 
