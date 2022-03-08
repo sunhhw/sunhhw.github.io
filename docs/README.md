@@ -14,6 +14,6 @@
 ## 🌿 Spring
 
 - [第一章: Spring中常见的注解]( /md/idea-plugin/spring/2022-03-06-Spring中常见注解.md )
-- [第二章: Spring中的事务](/md/idea-plugin/2022-03-06-Spring中事务问题.md)
+- [第二章: Spring中的事务](/md/idea-plugin/spring/2022-03-06-Spring中事务问题.md)
 
 ## 🍀 微服务
