@@ -7,6 +7,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="/assets/css/vue.css">
+  <link rel="stylesheet" href="/assets/css/gitalk.css">
   <script>
       var _hmt = _hmt || [];
       (function() {
@@ -20,6 +21,14 @@
 <body>
 <div id="app"></div>
 <script>
+  var gitalkConfig = {
+      clientID: '9f02147115d4dd45dcbb',
+      clientSecret: '3a73330bfcd328cb525ca725fe0612ac81b2a44e',
+      repo: 'sunhhw.github.io',
+      owner: 'sunhhw',
+      admin: ["sunhhw"],
+      distractionFreeMode: false
+    };
     window.$docsify = {
       name: '孙半仙人',
       repo: 'https://github.com/sunhhw/sunhhw.github.io',
@@ -38,12 +47,40 @@
         previousText: 'PREVIOUS',
         nextText: 'NEXT',
         crossChapter: true
-      }
+      },
+      plugins: [
+        function (hook, vm) {
+          hook.doneEach(function() {
+            var label, domObj, main, divEle, gitalk;
+            label = md5(decodeURI(vm.route.path.split("/").pop()));
+            domObj = Docsify.dom;
+            main = domObj.getNode("#main");
+
+            Array.apply(
+              null,
+              document.querySelectorAll("div.gitalk-container")
+            ).forEach(function(ele) {
+              ele.remove();
+            });
+      
+            divEle = domObj.create("div");
+            divEle.id = "gitalk-container-" + label;
+            divEle.className = "gitalk-container";
+            divEle.style = "width: " + main.clientWidth + "px; margin: 0 auto 20px;";
+            domObj.appendTo(domObj.find(".content"), divEle);
+            gitalk = new Gitalk(
+              Object.assign(gitalkConfig, { id: !label ? "home" : label })
+            );
+            gitalk.render("gitalk-container-" + label);
+          });
+        }
+      ]
     }                                 
   </script>
 
 <script src="/assets/js/md5.js"></script>
 <script src="/assets/js/docsify.min.js"></script>
+<script src="/assets/js/gitalk.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
 <script src="/assets/js/docsify-pagination.min.js"></script>
 <script src="/assets/js/zoom-image.js"></script>
