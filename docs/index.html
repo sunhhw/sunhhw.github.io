@@ -35,6 +35,10 @@
       auto2top: true,
       coverpage: true,
       loadSidebar: true,
+      loadNavbar: true,
+      autoHeader: false,
+      coverpage: true,
+      onlyCover: false,
       maxLevel: 4,
       subMaxLevel: 2,
       search: {
@@ -47,9 +51,15 @@
         previousText: 'PREVIOUS',
         nextText: 'NEXT',
         crossChapter: true
-      }
-      // ,
-      // plugins: [
+      },
+      count: {
+         countable:true,
+         fontsize:'0.9em',
+         color:'rgb(90,90,90)',
+         language:'chinese' 
+      } 
+      ,
+      plugins: [
       //   function (hook, vm) {
       //     hook.doneEach(function() {
       //       var label, domObj, main, divEle, gitalk;
@@ -74,18 +84,36 @@
       //       );
       //       gitalk.render("gitalk-container-" + label);
       //     });
-      //   }
-      // ]
+      //   },
+            function(hook, vm) {
+              hook.beforeEach(function(html) {
+                var url =
+                  'https://github.com/docsifyjs/docsify/blob/master/docs/' +
+                  vm.route.file;
+                var editHtml = '[📝 在github上编辑](' + url + ')\n';
+
+                return (
+                  html +
+                  '\n----\n' +
+                  editHtml
+                );
+              });
+            }
+      ]
     }                                 
   </script>
 
 <script src="/assets/js/md5.js"></script>
 <script src="/assets/js/docsify.min.js"></script>
 <script src="/assets/js/gitalk.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+<script src="/assets/js/search.js"></script>
+<script src="/assets/js/countable.js"></script>
+<script src="/assets/js/docsify-copy-code"></script>
 <script src="/assets/js/docsify-pagination.min.js"></script>
 <script src="/assets/js/zoom-image.js"></script>
 <script src="/assets/js/prism-bash.js"></script>
 <script src="/assets/js/prism-java.min.js"></script>
+<script src="/assets/js/busuanzi.pure.mini.js"></script>
+
 </body>
 </html>
