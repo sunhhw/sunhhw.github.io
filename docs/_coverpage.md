@@ -2,7 +2,7 @@
 
 # 孙半仙人
 
-## 愿你编码半生，归来仍是少年
+## 精于基础，广于工具
 
 [![stars](https://badgen.net/github/stars/sunhhw/sunhhw.github.io?icon=github&color=4ab8a1)](https://github.com/sunhhw/sunhhw.github.io)
 
