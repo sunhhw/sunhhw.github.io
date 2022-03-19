@@ -3,6 +3,7 @@
 - [byte类型的取值范围](/md/idea-plugin/java基础/2022-03-12-byte类型的取值范围.md)
 - [位运算](/md/idea-plugin/java基础/2022-02-12-位运算.md)
 - [HashMap核心](/md/idea-plugin/java基础/2022-03-12-HashMap.md)
+- [ThreadLocal](/md/idea-plugin/java基础/2022-03-19-ThreadLocal.md)
 
 #### 📚 数据库
 
