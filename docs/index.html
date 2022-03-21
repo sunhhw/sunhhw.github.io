@@ -19,18 +19,18 @@
   </script>
 </head>
 <body>
-<div id="app"></div>
+  <div id="app"></div>
 <script>
-  var gitalkConfig = {
-      clientID: '59c8cc8e9f7f6f1adfab',
-      clientSecret: 'ca55bb4a6509ed50b1019b98e780ad4b10c2c7f4',
-      repo: 'sunhhw.github.io',
-      owner: 'sunhhw',
-      admin: ["sunhhw"],
-      id: location.hash,
-      distractionFreeMode: false,
-      proxy: 'https://www.xiaoquanya.com/login/oauth/access_token'
-    };
+  // var gitalkConfig = {
+  //     clientID: '59c8cc8e9f7f6f1adfab',
+  //     clientSecret: 'ca55bb4a6509ed50b1019b98e780ad4b10c2c7f4',
+  //     repo: 'sunhhw.github.io',
+  //     owner: 'sunhhw',
+  //     admin: ["sunhhw"],
+  //     id: location.hash,
+  //     distractionFreeMode: false,
+  //     proxy: 'https://www.xiaoquanya.com/login/oauth/access_token'
+  //   };
     window.$docsify = {
       name: '孙半仙人',
       repo: 'https://github.com/sunhhw/sunhhw.github.io',
@@ -100,7 +100,19 @@
                   editHtml
                 );
               });
-            }
+            },
+            function(hook) {
+            var footer = [
+              '<hr/>',
+              '<footer style="text-align: center">',
+              '<span><a href="https://beian.miit.gov.cn">皖ICP备2021018985号</a>',
+              '</footer>'
+            ].join('');
+
+            hook.afterEach(function(html) {
+              return html + footer;
+            });
+    }
       ]
     }                                 
   </script>
