@@ -11,12 +11,11 @@
     - [单例模式](https://sunhhw.github.io/#/md/idea-plugin/设计模式/2022-03-08-单例模式.md)
     - [策略模式](https://sunhhw.github.io/#/md/idea-plugin/设计模式/2022-03-08-策略模式.md)
     - [模版模式](https://sunhhw.github.io/#/md/idea-plugin/设计模式/2022-03-09-模版模式.md)
-  - 📬 Redis缓存
-  - 💼 ES
-  - 🚌 消息队列
   - 🌿 Spring
     - [Spring中常见的注解]( https://sunhhw.github.io/#/md/idea-plugin/spring/2022-03-06-Spring中常见注解.md )
     - [Spring中的事务](https://sunhhw.github.io/#/md/idea-plugin/spring/2022-03-06-Spring中事务问题.md)
   - :leaves: 微服务
     - [分布式ID-雪花算法](https://sunhhw.github.io/#/md/idea-plugin/微服务/2022-03-08-雪花算法.md)
+  - 🚌 扩展
+    - [自定义spring-boot-starter](https://sunhhw.github.io/#/md/idea-plugin/other/2022-03-22-自定义starter.md)
 
