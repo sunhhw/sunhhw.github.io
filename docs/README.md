@@ -1,17 +1,18 @@
 ### 💻 JAVA基础
 
-- [byte类型的取值范围](/md/idea-plugin/java基础/2022-03-12-byte类型的取值范围.md)
-- [位运算](/md/idea-plugin/java基础/2022-02-12-位运算.md)
-- [HashMap核心](/md/idea-plugin/java基础/2022-03-12-HashMap.md)
-- [ThreadLocal](/md/idea-plugin/java基础/2022-03-19-ThreadLocal.md)
+- [byte类型的取值范围](/md/idea-plugin/java/2022-03-12-byte类型的取值范围.md)
+- [位运算](/md/idea-plugin/java/2022-02-12-位运算.md)
+- [HashMap核心](/md/idea-plugin/java/2022-03-12-HashMap.md)
+- [ThreadLocal](/md/idea-plugin/java/2022-03-19-ThreadLocal.md)
 
 #### 📚 数据库
 
 #### 🏭 设计模式
 
-- [单例模式](/md/idea-plugin/设计模式/2022-03-08-单例模式.md)
-- [策略模式](/md/idea-plugin/设计模式/2022-03-08-策略模式.md)
-- [模版模式](/md/idea-plugin/设计模式/2022-03-09-模版模式.md)
+- [单例模式](/md/idea-plugin/design/2022-03-08-单例模式.md)
+- [策略模式](/md/idea-plugin/design/2022-03-08-策略模式.md)
+- [模版模式](/md/idea-plugin/design/2022-03-09-模版模式.md)
+- [观察者模式](/md/idea-plugin/design/2022-03-24-观察者模式.md)
 
 #### 🌿 Spring
 
@@ -20,7 +21,11 @@
 
 #### 🍀 微服务
 
-- [分布式ID-雪花算法](/md/idea-plugin/微服务/2022-03-08-雪花算法.md)
+- [Nacos-注册中心和配置中心](/md/idea-plugin/cloud/2022-03-25-Nacos.md)
+- [OpenFeign-服务间调用、负载均衡、服务降级](/md/idea-plugin/cloud/2022-03-25-OpenFeign.md)
+- [Gateway-网关](/md/idea-plugin/cloud/2022-03-25-Gateway.md)
+
+- [分布式ID-雪花算法](/md/idea-plugin/cloud/2022-03-08-雪花算法.md)
 
 #### 🚌 扩展
 
