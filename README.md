@@ -22,4 +22,5 @@
     - [分布式ID-雪花算法](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-03-08-雪花算法.md)
   - 🚌 扩展
     - [自定义spring-boot-starter](https://sunhhw.github.io/#/md/idea-plugin/other/2022-03-22-自定义starter.md)
+    - [数据库重构工具-Liquibase](https://sunhhw.github.io/#/md/idea-plugin/other/2022-04-01-Liquibase.md)
 

@@ -29,3 +29,4 @@
 #### 🚌 扩展
 
 - [自定义spring-boot-starter](/md/idea-plugin/other/2022-03-22-自定义starter.md)
+- [数据库重构工具-Liquibase](/md/idea-plugin/other/2022-04-01-Liquibase.md)
