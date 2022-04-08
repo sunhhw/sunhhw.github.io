@@ -15,6 +15,7 @@
   - 🌿 Spring
     - [Spring中常见的注解]( https://sunhhw.github.io/#/md/idea-plugin/spring/2022-03-06-Spring中常见注解.md )
     - [Spring中的事务](https://sunhhw.github.io/#/md/idea-plugin/spring/2022-03-06-Spring中事务问题.md)
+    - [Spring三级缓存](https://sunhhw.github.io/#/md/idea-plugin/spring/2022-04-08-Spring三级缓存.md)
   - :leaves: 微服务
     - [Nacos-注册中心和配置中心](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-03-25-Nacos.md)
     - [OpenFeign-服务间调用、负载均衡、服务降级](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-03-25-OpenFeign.md)

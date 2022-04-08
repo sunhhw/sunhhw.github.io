@@ -18,6 +18,7 @@
 
 - [Spring中常见的注解]( /md/idea-plugin/spring/2022-03-06-Spring中常见注解.md )
 - [Spring中的事务](/md/idea-plugin/spring/2022-03-06-Spring中事务问题.md)
+- [Spring三级缓存](/md/idea-plugin/spring/2022-04-08-Spring三级缓存.md)
 
 #### 🍀 微服务
 
