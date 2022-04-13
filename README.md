@@ -24,4 +24,5 @@
   - 🚌 扩展
     - [自定义spring-boot-starter](https://sunhhw.github.io/#/md/idea-plugin/other/2022-03-22-自定义starter.md)
     - [数据库重构工具-Liquibase](https://sunhhw.github.io/#/md/idea-plugin/other/2022-04-01-Liquibase.md)
+    - [自定义注解枚举参数校验](https://sunhhw.github.io/#/md/idea-plugin/other/2022-04-13-自定义注解参数枚举校验.md)
 
