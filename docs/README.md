@@ -1,10 +1,15 @@
-### 💻 JAVA基础
+#### 💻 JAVA基础
 
 - [byte类型的取值范围](/md/idea-plugin/java/2022-03-12-byte类型的取值范围.md)
 - [位运算](/md/idea-plugin/java/2022-02-12-位运算.md)
 - [HashMap核心](/md/idea-plugin/java/2022-03-12-HashMap.md)
 - [ThreadLocal](/md/idea-plugin/java/2022-03-19-ThreadLocal.md)
 - [动态代理](/md/idea-plugin/java/2022-04-16-动态代理.md)
+
+#### 🔀 多线程与并发
+
+- [Thread.start()启动原理](/md/idea-plugin/thread/2022-04-19-Thread.start()启动原理.md)
+- [Thread状态转换,常见方法](/md/idea-plugin/thread/2022-04-20-Thread状态转换,常用方法.md)
 
 #### 📚 数据库
 

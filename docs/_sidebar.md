@@ -8,20 +8,20 @@
        - [HashMap核心](/md/idea-plugin/java/2022-03-12-HashMap.md)
        - [ThreadLocal](/md/idea-plugin/java/2022-03-19-ThreadLocal.md)
        - [动态代理](/md/idea-plugin/java/2022-04-16-动态代理.md)
-       
-   - 📚 数据库
+   - 🔀 多线程与并发
+       - [Thread.start()启动原理](/md/idea-plugin/thread/2022-04-19-Thread.start()启动原理.md)
+       - [Thread状态转换,常见方法](/md/idea-plugin/thread/2022-04-20-Thread状态转换,常用方法.md)
    
+   - 📚 数据库
    - 🏭 设计模式
        - [单例模式](/md/idea-plugin/design/2022-03-08-单例模式.md)
        - [策略模式](/md/idea-plugin/design/2022-03-08-策略模式.md)
        - [模版模式](/md/idea-plugin/design/2022-03-09-模版模式.md)
        - [观察者模式](/md/idea-plugin/design/2022-03-24-观察者模式.md)
-       
    - 🌿 Spring
        - [Spring中常见的注解]( /md/idea-plugin/spring/2022-03-06-Spring中常见注解.md )
        - [Spring中的事务](/md/idea-plugin/spring/2022-03-06-Spring中事务问题.md)
        - [Spring三级缓存](/md/idea-plugin/spring/2022-04-08-Spring三级缓存.md)
-       
    - 🍀 微服务
      
        - [Nacos-注册中心和配置中心](/md/idea-plugin/cloud/2022-03-25-Nacos.md)
@@ -30,7 +30,6 @@
        - [Gateway-网关](/md/idea-plugin/cloud/2022-03-25-Gateway.md)
        
        - [分布式ID-雪花算法](/md/idea-plugin/cloud/2022-03-08-雪花算法.md)
-       
    - 🚌 扩展
        - [自定义spring-boot-starter](/md/idea-plugin/other/2022-03-22-自定义starter.md)
        - [数据库重构工具-Liquibase](/md/idea-plugin/other/2022-04-01-Liquibase.md)

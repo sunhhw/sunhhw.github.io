@@ -7,6 +7,9 @@
     - [HashMap核心](https://sunhhw.github.io/#/md/idea-plugin/java/2022-03-12-HashMap.md)
     - [ThreadLocal](https://sunhhw.github.io/#/md/idea-plugin/java/2022-03-19-ThreadLocal.md)
     - [动态代理](https://sunhhw.github.io/#/md/idea-plugin/java/2022-04-16-动态代理.md)
+  - 🔀 多线程与并发
+    - [Thread.start()启动原理](https://sunhhw.github.io/#/md/idea-plugin/thread/2022-04-19-Thread.start()启动原理.md)
+    - [Thread状态转换,常见方法](https://sunhhw.github.io/#/md/idea-plugin/thread/2022-04-20-Thread状态转换,常用方法.md)
   - 📚 数据库
   - 🏭 设计模式
     - [单例模式](https://sunhhw.github.io/#/md/idea-plugin/设计模式/2022-03-08-单例模式.md)
