@@ -10,6 +10,7 @@
 
 - [Thread.start()启动原理](/md/idea-plugin/thread/2022-04-19-Thread.start()启动原理.md)
 - [Thread状态转换,常见方法](/md/idea-plugin/thread/2022-04-20-Thread状态转换,常用方法.md)
+- [volatile关键字](/md/idea-plugin/thread/2022-04-15-volatile.md)
 
 #### 📚 数据库
 
