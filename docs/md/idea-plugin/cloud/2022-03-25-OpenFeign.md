@@ -77,7 +77,7 @@ public class UserController {
 **消费者提供的接口:**
 
 ```java
-@FeignClient(value = "user-service", path = "user")
+@FeignClient(value = "user-service", path = "user" ,contextId = "menu-client")
 public interface UserRpcService {
 
   	// openFeign默认使用JSON传参，可以不用@RequestBody，这里仅为了规范使用
@@ -104,7 +104,8 @@ public interface UserRpcService {
 ```
 
 - user-service: 消费者的服务名称
-- path: 接口统一前缀（/user/info）
+- path: 接口统一前缀（/user）
+- contextId: 如果存在两个相同的**value = "user-service"**,就需要使用**contextId = "menu-client"**来区分不同的Bean，不然会报错Bean重复
 - 请求路径，请求方式和参数都必须与生产者保持一致
 
 **调用者接口：**
