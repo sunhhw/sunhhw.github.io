@@ -5,12 +5,14 @@
 - [HashMap核心](/md/idea-plugin/java/2022-03-12-HashMap.md)
 - [ThreadLocal](/md/idea-plugin/java/2022-03-19-ThreadLocal.md)
 - [动态代理](/md/idea-plugin/java/2022-04-16-动态代理.md)
+- [javap的使用](/md/idea-plugin/java/2022-05-07-javap使用.md)
 
 #### 🔀 多线程与并发
 
 - [Thread.start()启动原理](/md/idea-plugin/thread/2022-04-19-Thread.start()启动原理.md)
 - [Thread状态转换,常见方法](/md/idea-plugin/thread/2022-04-20-Thread状态转换,常用方法.md)
 - [volatile关键字](/md/idea-plugin/thread/2022-04-15-volatile.md)
+- [synchronized关键字](/md/idea-plugin/thread/2022-05-08-synchronized.md)
 
 #### 📚 数据库
 
