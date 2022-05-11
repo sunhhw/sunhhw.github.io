@@ -14,6 +14,7 @@
     - [volatile关键字](https://sunhhw.github.io/#/md/idea-plugin/thread/2022-04-15-volatile.md)
     - [synchronized关键字](https://sunhhw.github.io/#/md/idea-plugin/thread/2022-05-08-synchronized.md)
     - [CLH公平锁](https://sunhhw.github.io/#/md/idea-plugin/thread/2022-05-10-CLH公平锁.md)
+    - [CAS乐观锁](https://sunhhw.github.io/#/md/idea-plugin/thread/2022-05-11-CAS乐观锁.md)
   - 📚 数据库
   - 🏭 设计模式
     - [单例模式](https://sunhhw.github.io/#/md/idea-plugin/设计模式/2022-03-08-单例模式.md)
