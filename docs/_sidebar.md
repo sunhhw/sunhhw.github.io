@@ -16,6 +16,7 @@
        - [synchronized关键字](/md/idea-plugin/thread/2022-05-08-synchronized.md)
        - [CLH公平锁](/md/idea-plugin/thread/2022-05-10-CLH公平锁.md)
        - [CAS乐观锁](/md/idea-plugin/thread/2022-05-11-CAS乐观锁.md)
+       - [ReentrantLock,Semaphore,CountDownLatch](/md/idea-plugin/thread/2022-05-08-ReentrantLock.md)
        
    - 📚 数据库
    - 🏭 设计模式
