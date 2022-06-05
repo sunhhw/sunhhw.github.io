@@ -31,6 +31,7 @@
     - [OpenFeign-服务间调用、负载均衡、服务降级](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-03-25-OpenFeign.md)
     - [Gateway-网关](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-03-25-Gateway.md)
     - [分布式ID-雪花算法](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-03-08-雪花算法.md)
+    - [ES的基本操作](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-06-02-ES.md)
   - 🚌 扩展
     - [自定义spring-boot-starter](https://sunhhw.github.io/#/md/idea-plugin/other/2022-03-22-自定义starter.md)
     - [数据库重构工具-Liquibase](https://sunhhw.github.io/#/md/idea-plugin/other/2022-04-01-Liquibase.md)

@@ -38,6 +38,7 @@
 - [OpenFeign-服务间调用、负载均衡、服务降级](/md/idea-plugin/cloud/2022-03-25-OpenFeign.md)
 - [Gateway-网关](/md/idea-plugin/cloud/2022-03-25-Gateway.md)
 - [分布式ID-雪花算法](/md/idea-plugin/cloud/2022-03-08-雪花算法.md)
+- [ES的基本操作](/md/idea-plugin/cloud/2022-06-02-ES.md)
 
 #### 🚌 扩展
 
