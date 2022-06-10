@@ -1,5 +1,4 @@
 - [:octocat: 首页](/README)
-
 - :memo: 目录
 
    - 💻  java基础
@@ -17,7 +16,6 @@
        - [CLH公平锁](/md/idea-plugin/thread/2022-05-10-CLH公平锁.md)
        - [CAS乐观锁](/md/idea-plugin/thread/2022-05-11-CAS乐观锁.md)
        - [ReentrantLock,Semaphore,CountDownLatch](/md/idea-plugin/thread/2022-05-08-ReentrantLock.md)
-       
    - 📚 数据库
    - 🏭 设计模式
        - [单例模式](/md/idea-plugin/design/2022-03-08-单例模式.md)
@@ -29,12 +27,13 @@
        - [Spring中的事务](/md/idea-plugin/spring/2022-03-06-Spring中事务问题.md)
        - [Spring三级缓存](/md/idea-plugin/spring/2022-04-08-Spring三级缓存.md)
    - 🍀 微服务
-     
+       - [微服务概要](/md/idea-plugin/cloud/2022-03-25-微服务总体概述.md)
        - [Nacos-注册中心和配置中心](/md/idea-plugin/cloud/2022-03-25-Nacos.md)
        - [OpenFeign-服务间调用、负载均衡、服务降级](/md/idea-plugin/cloud/2022-03-25-OpenFeign.md)
        - [Gateway-网关](/md/idea-plugin/cloud/2022-03-25-Gateway.md)
        - [分布式ID-雪花算法](/md/idea-plugin/cloud/2022-03-08-雪花算法.md)
        - [ES的基本操作](/md/idea-plugin/cloud/2022-06-02-ES.md)
+       - [Springboot-ES整合](/md/idea-plugin/cloud/2022-06-05-Springboot-ES.md)
    - 🚌 扩展
        - [自定义spring-boot-starter](/md/idea-plugin/other/2022-03-22-自定义starter.md)
        - [数据库重构工具-Liquibase](/md/idea-plugin/other/2022-04-01-Liquibase.md)
