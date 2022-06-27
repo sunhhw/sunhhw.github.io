@@ -19,6 +19,7 @@
     - [CAS乐观锁](https://sunhhw.github.io/#/md/idea-plugin/thread/2022-05-11-CAS乐观锁.md)
     - [ReentrantLock,Semaphore,CountDownLatch](https://sunhhw.github.io/#/md/idea-plugin/thread/2022-05-08-ReentrantLock.md)
     - [线程池](https://sunhhw.github.io/#/md/idea-plugin/thread/2022-05-07-线程池.md)
+    - [应用场景](https://sunhhw.github.io/#/md/idea-plugin/thread/2022-06-17-应用场景.md)
     
   - 📚 数据库
   
