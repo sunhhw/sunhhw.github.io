@@ -24,6 +24,7 @@
        - [策略模式](/md/idea-plugin/design/2022-03-08-策略模式.md)
        - [模版模式](/md/idea-plugin/design/2022-03-09-模版模式.md)
        - [观察者模式](/md/idea-plugin/design/2022-03-24-观察者模式.md)
+       - [spring观察者](/md/idea-plugin/design/2022-06-26-spring观察者.md)
    - 🌿 Spring
        - [Spring中常见的注解]( /md/idea-plugin/spring/2022-03-06-Spring中常见注解.md )
        - [Spring中的事务](/md/idea-plugin/spring/2022-03-06-Spring中事务问题.md)

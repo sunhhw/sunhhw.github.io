@@ -27,6 +27,7 @@
 - [策略模式](/md/idea-plugin/design/2022-03-08-策略模式.md)
 - [模版模式](/md/idea-plugin/design/2022-03-09-模版模式.md)
 - [观察者模式](/md/idea-plugin/design/2022-03-24-观察者模式.md)
+- [spring观察者](/md/idea-plugin/design/2022-06-26-spring观察者.md)
 
 #### 🌿 Spring
 

@@ -28,6 +28,7 @@
     - [策略模式](https://sunhhw.github.io/#/md/idea-plugin/设计模式/2022-03-08-策略模式.md)
     - [模版模式](https://sunhhw.github.io/#/md/idea-plugin/设计模式/2022-03-09-模版模式.md)
     - [观察者模式](https://sunhhw.github.io/#/md/idea-plugin/设计模式/2022-03-24-观察者模式.md)
+    - [spring观察者](https://sunhhw.github.io/#/md/idea-plugin/design/2022-06-26-spring观察者.md)
     
   - 🌿 Spring
     - [Spring中常见的注解]( https://sunhhw.github.io/#/md/idea-plugin/spring/2022-03-06-Spring中常见注解.md )
