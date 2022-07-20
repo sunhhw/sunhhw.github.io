@@ -20,6 +20,7 @@
        - [应用场景](/md/idea-plugin/thread/2022-06-17-应用场景.md)
    - 📚 数据库
        - [基础知识](/md/idea-plugin/mysql/2022-06-16-基础知识.md)
+       - [三大日志](/md/idea-plugin/mysql/2022-06-16-三大日志(binlog,redolog,undolog).md)
    - 🏭 设计模式
        - [单例模式](/md/idea-plugin/design/2022-03-08-单例模式.md)
        - [策略模式](/md/idea-plugin/design/2022-03-08-策略模式.md)
