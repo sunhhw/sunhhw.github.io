@@ -790,6 +790,13 @@ public class SearchTest {
         highlightBuilder.preTags("<span style='color:red'>").postTags("</span>").field("title").requireFieldMatch(true);
         searchSourceBuilder.highlighter(highlightBuilder);
 
+      	// 聚合 terms
+      	TermsAggregationBuilder aggregation = AggregationBuilders
+                .terms("title")
+                .field("title")
+                .size(Integer.MAX_VALUE);
+     	  searchSourceBuilder.aggregation(aggregation);
+      
         System.out.println(searchSourceBuilder.toString());
         // 向搜索请求对象中设置搜索源
         searchRequest.source(searchSourceBuilder);
@@ -867,91 +874,7 @@ public class ArticleVo {
 
     private String content;
 
-    public String getArticleId() {
-        return articleId;
-    }
+    ...get/set
 
-    public void setArticleId(String articleId) {
-        this.articleId = articleId;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public Long getSectionNum() {
-        return sectionNum;
-    }
-
-    public void setSectionNum(Long sectionNum) {
-        this.sectionNum = sectionNum;
-    }
-
-    public Long getSectionTotal() {
-        return sectionTotal;
-    }
-
-    public void setSectionTotal(Long sectionTotal) {
-        this.sectionTotal = sectionTotal;
-    }
-
-    public String getFileFormat() {
-        return fileFormat;
-    }
-
-    public void setFileFormat(String fileFormat) {
-        this.fileFormat = fileFormat;
-    }
-
-    public String getInstitution() {
-        return institution;
-    }
-
-    public void setInstitution(String institution) {
-        this.institution = institution;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
-    public String getFirstReportType() {
-        return firstReportType;
-    }
-
-    public void setFirstReportType(String firstReportType) {
-        this.firstReportType = firstReportType;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
-    }
-
-    @Override
-    public String toString() {
-        return "ArticleVo{" +
-                "articleId='" + articleId + '\'' +
-                ", title='" + title + '\'' +
-                ", sectionNum=" + sectionNum +
-                ", sectionTotal=" + sectionTotal +
-                ", fileFormat='" + fileFormat + '\'' +
-                ", institution='" + institution + '\'' +
-                ", author='" + author + '\'' +
-                ", firstReportType='" + firstReportType + '\'' +
-                ", content='" + content + '\'' +
-                '}';
-    }
 }
 ```
