@@ -20,9 +20,10 @@
     - [线程池](https://sunhhw.github.io/#/md/idea-plugin/thread/2022-05-07-线程池.md)
     - [应用场景](https://sunhhw.github.io/#/md/idea-plugin/thread/2022-06-17-应用场景.md)
   - 📚 数据库
-    - [基础知识](/md/idea-plugin/mysql/2022-06-16-基础知识.md)
-    - [三大日志](/md/idea-plugin/mysql/2022-06-16-三大日志(binlog,redolog,undolog).md)
-    - [索引设计优化](/md/idea-plugin/mysql/2022-06-16-索引设计优化.md)
+    - [基础知识](https://sunhhw.github.io/#/md/idea-plugin/mysql/2022-06-16-基础知识.md)
+    - [三大日志](https://sunhhw.github.io/#/md/idea-plugin/mysql/2022-06-16-三大日志(binlog,redolog,undolog).md)
+    - [索引设计优化](https://sunhhw.github.io/#/md/idea-plugin/mysql/2022-06-16-索引设计优化.md)
+    - [索引原理](https://sunhhw.github.io/#/md/idea-plugin/mysql/2022-06-16-索引原理.md)
     
   - 🏭 设计模式
     - [单例模式](https://sunhhw.github.io/#/md/idea-plugin/设计模式/2022-03-08-单例模式.md)
