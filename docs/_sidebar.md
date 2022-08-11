@@ -1,4 +1,5 @@
 - [:octocat: 首页](/README)
+
 - :memo: 目录
 
    - 💻  java基础
@@ -33,6 +34,10 @@
        - [Spring中常见的注解]( /md/idea-plugin/spring/2022-03-06-Spring中常见注解.md )
        - [Spring中的事务](/md/idea-plugin/spring/2022-03-06-Spring中事务问题.md)
        - [Spring三级缓存](/md/idea-plugin/spring/2022-04-08-Spring三级缓存.md)
+   - 🚁 JVM
+       - [jvm内存模型](/md/idea-plugin/jvm/2022-07-28-jvm内存模型.md)
+       - [jvm垃圾回收机制](/md/idea-plugin/jvm/2022-07-28-jvm垃圾回收.md)
+   
    - 🍀 微服务
        - [微服务概要](/md/idea-plugin/cloud/2022-03-25-微服务总体概述.md)
        - [Nacos-注册中心和配置中心](/md/idea-plugin/cloud/2022-03-25-Nacos.md)

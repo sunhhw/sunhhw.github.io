@@ -1,5 +1,4 @@
 - [:octocat: 首页](/README)
-
 - :memo: 目录
 
   - 💻 java
@@ -24,7 +23,6 @@
     - [三大日志](https://sunhhw.github.io/#/md/idea-plugin/mysql/2022-06-16-三大日志(binlog,redolog,undolog).md)
     - [索引设计优化](https://sunhhw.github.io/#/md/idea-plugin/mysql/2022-06-16-索引设计优化.md)
     - [索引原理](https://sunhhw.github.io/#/md/idea-plugin/mysql/2022-06-16-索引原理.md)
-    
   - 🏭 设计模式
     - [单例模式](https://sunhhw.github.io/#/md/idea-plugin/设计模式/2022-03-08-单例模式.md)
     - [策略模式](https://sunhhw.github.io/#/md/idea-plugin/设计模式/2022-03-08-策略模式.md)
@@ -35,6 +33,9 @@
     - [Spring中常见的注解]( https://sunhhw.github.io/#/md/idea-plugin/spring/2022-03-06-Spring中常见注解.md )
     - [Spring中的事务](https://sunhhw.github.io/#/md/idea-plugin/spring/2022-03-06-Spring中事务问题.md)
     - [Spring三级缓存](https://sunhhw.github.io/#/md/idea-plugin/spring/2022-04-08-Spring三级缓存.md)
+  - 🚁 JVM
+    - [jvm内存模型](/md/idea-plugin/jvm/2022-07-28-jvm内存模型.md)
+    - [jvm垃圾回收机制](/md/idea-plugin/jvm/2022-07-28-jvm垃圾回收.md)
   - :leaves: 微服务
     - [微服务概要](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-03-25-微服务总体概述.md)
   
