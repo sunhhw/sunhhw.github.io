@@ -24,6 +24,7 @@
        - [三大日志](/md/idea-plugin/mysql/2022-06-16-三大日志(binlog,redolog,undolog).md)
        - [索引设计优化](/md/idea-plugin/mysql/2022-06-16-索引设计优化.md)
        - [索引原理](/md/idea-plugin/mysql/2022-06-16-索引原理.md)
+       - [Oracle基础操作](/md/idea-plugin/mysql/2022-08-11-Oracle基本操作.md)
    - 🏭 设计模式
        - [单例模式](/md/idea-plugin/design/2022-03-08-单例模式.md)
        - [策略模式](/md/idea-plugin/design/2022-03-08-策略模式.md)
