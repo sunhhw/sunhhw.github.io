@@ -18,6 +18,7 @@
     - [ReentrantLock,Semaphore,CountDownLatch](https://sunhhw.github.io/#/md/idea-plugin/thread/2022-05-08-ReentrantLock.md)
     - [线程池](https://sunhhw.github.io/#/md/idea-plugin/thread/2022-05-07-线程池.md)
     - [应用场景](https://sunhhw.github.io/#/md/idea-plugin/thread/2022-06-17-应用场景.md)
+    - [分布式锁Redisson](https://sunhhw.github.io/#/md/idea-plugin/thread/2022-08-20-Redisson.md)
   - 📚 数据库
     - [基础知识](https://sunhhw.github.io/#/md/idea-plugin/mysql/2022-06-16-基础知识.md)
     - [三大日志](https://sunhhw.github.io/#/md/idea-plugin/mysql/2022-06-16-三大日志(binlog,redolog,undolog).md)
@@ -30,6 +31,7 @@
     - [模版模式](https://sunhhw.github.io/#/md/idea-plugin/设计模式/2022-03-09-模版模式.md)
     - [观察者模式](https://sunhhw.github.io/#/md/idea-plugin/设计模式/2022-03-24-观察者模式.md)
     - [spring观察者](https://sunhhw.github.io/#/md/idea-plugin/design/2022-06-26-spring观察者.md)
+    - [适配器模式](https://sunhhw.github.io/#/md/idea-plugin/design/2022-08-27-适配器模式.md)
   - 🌿 Spring
     - [Spring中常见的注解]( https://sunhhw.github.io/#/md/idea-plugin/spring/2022-03-06-Spring中常见注解.md )
     - [Spring中的事务](https://sunhhw.github.io/#/md/idea-plugin/spring/2022-03-06-Spring中事务问题.md)

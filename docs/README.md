@@ -18,6 +18,7 @@
 - [ReentrantLock,Semaphore,CountDownLatch](/md/idea-plugin/thread/2022-05-08-ReentrantLock.md)
 - [线程池](/md/idea-plugin/thread/2022-05-07-线程池.md)
 - [应用场景](/md/idea-plugin/thread/2022-06-17-应用场景.md)
+- [分布式锁Redisson](/md/idea-plugin/thread/2022-08-20-Redisson.md)
 
 #### 📚 数据库
 
@@ -34,6 +35,7 @@
 - [模版模式](/md/idea-plugin/design/2022-03-09-模版模式.md)
 - [观察者模式](/md/idea-plugin/design/2022-03-24-观察者模式.md)
 - [spring观察者](/md/idea-plugin/design/2022-06-26-spring观察者.md)
+- [适配器模式](/md/idea-plugin/design/2022-08-27-适配器模式.md)
 
 #### 🌿 Spring
 
