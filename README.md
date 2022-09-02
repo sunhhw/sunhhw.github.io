@@ -32,6 +32,7 @@
     - [观察者模式](https://sunhhw.github.io/#/md/idea-plugin/设计模式/2022-03-24-观察者模式.md)
     - [spring观察者](https://sunhhw.github.io/#/md/idea-plugin/design/2022-06-26-spring观察者.md)
     - [适配器模式](https://sunhhw.github.io/#/md/idea-plugin/design/2022-08-27-适配器模式.md)
+    - [责任链模式](https://sunhhw.github.io/#/md/idea-plugin/design/2022-09-02-责任链模式.md)
   - 🌿 Spring
     - [Spring中常见的注解]( https://sunhhw.github.io/#/md/idea-plugin/spring/2022-03-06-Spring中常见注解.md )
     - [Spring中的事务](https://sunhhw.github.io/#/md/idea-plugin/spring/2022-03-06-Spring中事务问题.md)
