@@ -38,6 +38,8 @@
        - [Spring中常见的注解]( /md/idea-plugin/spring/2022-03-06-Spring中常见注解.md )
        - [Spring中的事务](/md/idea-plugin/spring/2022-03-06-Spring中事务问题.md)
        - [Spring三级缓存](/md/idea-plugin/spring/2022-04-08-Spring三级缓存.md)
+       - [Spring中的Aware](/md/idea-plugin/spring/2022-09-06-Spring中Aware.md)
+       - [Spring中Bean的生命周期](/md/idea-plugin/spring/2022-4-15-Spring中Bean的生命周期.md)
    - 🚁 JVM
        - [jvm内存模型](/md/idea-plugin/jvm/2022-07-28-jvm内存模型.md)
        - [jvm垃圾回收机制](/md/idea-plugin/jvm/2022-07-28-jvm垃圾回收.md)
