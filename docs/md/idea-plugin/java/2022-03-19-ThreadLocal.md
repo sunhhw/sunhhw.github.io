@@ -6,67 +6,51 @@ ThreadLocal是JDK包提供的，它提供线程本地变量，具有线程隔离
 
 ### 1. 案例
 
-比如现在有个场景，设定一个初始值int num = 0，我希望每个线程可以从0开始累加。
+比如现在有个场景，多线程情况下,拼接不同的消息
 
 ```java
-public class Demo {
-    static AtomicInteger a = new AtomicInteger(0);
-    public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            new Thread(() -> {
-                System.out.println(Thread.currentThread().getName() + ":" + a.getAndIncrement());
-            }).start();
-        }
-    }
+public static ThreadLocal<StringBuilder> localMessage = new ThreadLocal<>();
+
+public static void addMeg(String msg) {
+  StringBuilder builder = localMessage.get();
+  if (builder == null) {
+    builder = new StringBuilder();
+    localMessage.set(builder);
+  }
+  builder.append(msg);
 }
+
+ public static void main(String[] args) {
+   addMeg("张三");
+   addMeg("李四");
+   System.out.println(Thread.currentThread() + ":" + localMessage.get());
+   localMessage.remove();
+   new Thread(() -> {
+     addMeg("张三1");
+     addMeg("李四1");
+     addMeg("王武1");
+     System.out.println(Thread.currentThread() + ":" + localMessage.get());
+     localMessage.remove();
+   }).start();
+   new Thread(() -> {
+     addMeg("张三2");
+     System.out.println(Thread.currentThread() + ":" + localMessage.get());
+     localMessage.remove();
+   }).start();
+ }
 ```
 
 ```java
-Thread-0:0
-Thread-3:3
-Thread-4:4
-Thread-1:1
-Thread-2:2
-Thread-5:5
-Thread-6:7
-Thread-7:6
-Thread-8:8
-Thread-9:9
+Thread[main,5,main]:张三李四
+Thread[Thread-0,5,main]:张三1李四1王武1
+Thread[Thread-1,5,main]:张三2
 ```
 
- 使用ThreadLocal后：
-
-```java
-public class Demo {
-    private static ThreadLocal<AtomicInteger> threadLocal = ThreadLocal.withInitial(() -> new AtomicInteger(0));
-    public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            new Thread(() -> {
-                AtomicInteger a = threadLocal.get();
-                System.out.println(Thread.currentThread().getName() + ":" + a.getAndIncrement());
-            }).start();
-        }
-    }
-}
-```
-
-```java
-Thread-0:0
-Thread-3:0
-Thread-4:0
-Thread-1:0
-Thread-6:0
-Thread-2:0
-Thread-8:0
-Thread-7:0
-Thread-5:0
-Thread-9:0
-```
-
-### 2. 应用场景
+###  2. 应用场景
 
 - 比如说DAO的数据库连接，我们知道DAO是单例的，那么他的属性Connection就不是一个线程安全的变量。而我们每个线程都需要使用他，并且各自使用各自的。
 - 日志框架 `MDC` 的组件
+- 获取当前登录用户上下文
 
 ### 3. 怎么用
 
@@ -85,13 +69,13 @@ ThreadLocal<Map<String, String>> sThreadLocal = ThreadLocal.withInitial(HashMap:
 
 ## 三、数据结构
 
-![ThreadLocal-01](../../../assets/img/ThreadLocal-01.png)
+![图片](../../../assets/img/threanlocal-01.png)
 
 每个线程Thread对象都存放着一个变量threadLocals，其类型是ThreadLocal的静态内部类ThreadLocalMap，而Entry又是ThreadLocalMap的静态内部类，key是ThreadLocal（声明为弱引用），value是Object，也就是我们要存的值。
 
 ![image-20220318143716000](../../../assets/img/ThreadLocal-02.png)
 
-1. 它是一个数组结构，默认长度为16；
+1. **它是一个数组结构，`默认长度为16`**
 2. `Entry`，这里没用再打开，其实它是一个弱引用实现，`static class Entry extends WeakReference<ThreadLocal<?>>`。这说明只要没用强引用存在，发生GC时就会被垃圾回收。
 3. 数据元素采用哈希散列方式进行存储，不过这里的散列使用的是 `斐波那契（Fibonacci）散列法`。
 4. 另外由于这里不同于HashMap的数据结构，发生哈希碰撞不会存成链表或红黑树，而是使用拉链法进行存储。也就是同一个下标位置发生冲突时，则`+1向后寻址`，直到找到空位置或垃圾回收位置进行存储。
@@ -238,9 +222,11 @@ this.threshold = len * 2 / 3;
 ```
 
 - 自发式清理，把无效ThreadLocal清理后，看数组空间是否足够；
-- 查看当前数组有效元素是否超过 len * 2 / 3
+- 查看当前数组有效元素是否超过 `len * 2 / 3,取整后的值是：10`
 
 #### 扩容方式
+
+<img src="../../../assets/img/threadlocal-06.png" alt="图片" style="zoom:50%;" />
 
 ```java
 private void rehash() {
@@ -258,7 +244,8 @@ private void rehash() {
 int newLen = oldLen * 2;
 ```
 
-- **重新计算hash值，放入新的数组中**。
+- `2倍扩容`
+- **`重新计算hash值`，放入新的数组中**。
 - **在放置数组的过程中，如果发生哈希碰撞，则链式法顺延。**
 - **探测式清理，是以当前遇到的 GC 元素开始，向后不断的清理。直到遇到 null 为止，才停止 rehash 计算。**
 
@@ -300,7 +287,7 @@ private ThreadLocal.ThreadLocalMap.Entry getEntry(ThreadLocal<?> key) {
 }
 ```
 
-## 常见问题
+## 4、常见问题
 
 - 强引用：Java中默认的引用类型，一个对象如果具有强引用那么只要这种引用还存在就不会被GC。
 - 软引用：简言之，如果一个对象具有软引用，在JVM发生OOM之前（即内存充足够使用），是不会GC这个对象的；只有到JVM内存不足的时候才会GC掉这个对象。软引用和一个引用队列联合使用，如果软引用所引用的对象被回收之后，该引用就会加入到与之关联的引用队列中
@@ -309,9 +296,7 @@ private ThreadLocal.ThreadLocalMap.Entry getEntry(ThreadLocal<?> key) {
 - **内存溢出（Out Of Memory）** ：就是申请内存时，JVM没有足够的内存空间。
 - **内存泄露 （Memory Leak）**：就是申请了内存，但无法释放已申请的内存空间，导致内存空间浪费。
 
-
-
-![preview](../../../assets/img/ThreadLocal-05.png)
+![图片](../../../assets/img/threadlocal-05.png)
 
 ```java
 static class Entry extends WeakReference<ThreadLocal<?>> {
@@ -341,7 +326,7 @@ static class Entry extends WeakReference<ThreadLocal<?>> {
 
 如果当ThreadLocalMap.Entry的key使用弱引用的话，下次GC的时候被把当前的key设置为null，当key为null，在下一次ThreadLocalMap调用set(),get(),remove()方法的时候会清理掉key=null的Entry对象，把该下标的数组元素设置为null。
 
-#### 总结
+#### 总结:
 
 用完ThreadLocal之后，及时手动remove()
 
@@ -361,6 +346,26 @@ private void remove(ThreadLocal<?> key) {
         }
     }
 }
+```
+
+## 五、父子线程之间的通信
+
+在实际工作中,可能会遇到父子线程中共享数据,即在父ThreadLocal设置值,在子线程中能够获取到.
+
+使用`InheritableThreadLocal`，它是JDK自带的类，继承了ThreadLocal类。
+
+```java
+    @Test
+    public void inheritableThreadLocalTest() {
+        InheritableThreadLocal<Integer> threadLocal = new InheritableThreadLocal<>();
+        threadLocal.set(6);
+        log.info(Thread.currentThread().getName() + "父线程数据:" + threadLocal.get());
+        Thread thread = new Thread(() -> {
+            log.info(Thread.currentThread().getName() + "子线程数据:" + threadLocal.get());
+        });
+        thread.setName("son");
+        thread.start();
+    }
 ```
 
 参考：
