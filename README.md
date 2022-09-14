@@ -26,6 +26,7 @@
     - [索引原理](https://sunhhw.github.io/#/md/idea-plugin/mysql/2022-06-16-索引原理.md)
     - [Oracle基础操作](/md/idea-plugin/mysql/2022-08-11-Oracle基本操作.md)
   - 🏭 设计模式
+  - 消息队列
     - [单例模式](https://sunhhw.github.io/#/md/idea-plugin/设计模式/2022-03-08-单例模式.md)
     - [策略模式](https://sunhhw.github.io/#/md/idea-plugin/设计模式/2022-03-08-策略模式.md)
     - [模版模式](https://sunhhw.github.io/#/md/idea-plugin/设计模式/2022-03-09-模版模式.md)
@@ -33,6 +34,12 @@
     - [spring观察者](https://sunhhw.github.io/#/md/idea-plugin/design/2022-06-26-spring观察者.md)
     - [适配器模式](https://sunhhw.github.io/#/md/idea-plugin/design/2022-08-27-适配器模式.md)
     - [责任链模式](https://sunhhw.github.io/#/md/idea-plugin/design/2022-09-02-责任链模式.md)
+  - 📬 消息队列
+    - [rabbitmq基础知识](https://sunhhw.github.io/#/md/idea-plugin/mq/2022-09-14-rabbitmq基础知识.md)
+    - [rabbitmq消息确认](https://sunhhw.github.io/#/md/idea-plugin/mq/2022-09-14-rabbitmq消息确认.md)
+    - [rabbitmq消息重试](https://sunhhw.github.io/#/md/idea-plugin/mq/2022-09-14-rabbitmq消息重试.md)
+    - [rabbitmq死信队列](https://sunhhw.github.io/#/md/idea-plugin/mq/2022-09-14-rabbitmq死信队列.md)
+    - [rabbitmq其他问题](https://sunhhw.github.io/#/md/idea-plugin/mq/2022-09-14-rabbitmq其他问题.md)
   - 🌿 Spring
     - [Spring中常见的注解]( https://sunhhw.github.io/#/md/idea-plugin/spring/2022-03-06-Spring中常见注解.md )
     - [Spring中的事务](https://sunhhw.github.io/#/md/idea-plugin/spring/2022-03-06-Spring中事务问题.md)
