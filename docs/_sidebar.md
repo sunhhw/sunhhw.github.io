@@ -33,7 +33,7 @@
        - [spring观察者](/md/idea-plugin/design/2022-06-26-spring观察者.md)
        - [适配器模式](/md/idea-plugin/design/2022-08-27-适配器模式.md)
        - [责任链模式](/md/idea-plugin/design/2022-09-02-责任链模式.md)
-   - 消息队列
+   - 📬 消息队列
        - [rabbitmq基础知识](/md/idea-plugin/mq/2022-09-14-rabbitmq基础知识.md)
        - [rabbitmq消息确认](/md/idea-plugin/mq/2022-09-14-rabbitmq消息确认.md)
        - [rabbitmq消息重试](/md/idea-plugin/mq/2022-09-14-rabbitmq消息重试.md)
