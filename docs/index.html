@@ -8,6 +8,8 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="/assets/css/vue.css">
   <link rel="stylesheet" href="/assets/css/gitalk.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+
   <script>
       var _hmt = _hmt || [];
       (function() {
@@ -40,8 +42,9 @@
       // autoHeader: false,
       coverpage: true,
       // onlyCover: false,
-      maxLevel: 4,
-      subMaxLevel: 2,
+      maxLevel: 1,
+      subMaxLevel: 1,
+      sidebarDisplayLevel: 1, // set sidebar display level
       search: {
         paths: 'auto',
         placeholder: '🔍 Type to search ',
@@ -60,6 +63,11 @@
          language:'chinese' 
       } 
       ,
+        toc: {
+          tocMaxLevel: 2,
+          target: "h2, h3, h4, h5, h6",
+        },
+
       plugins: [
         // function (hook, vm) {
         //       hook.doneEach(function() {
@@ -127,6 +135,12 @@
 <script src="/assets/js/prism-bash.js"></script>
 <script src="/assets/js/prism-java.min.js"></script>
 <script src="/assets/js/busuanzi.pure.mini.js"></script>
+   <!-- 侧边栏目录折叠 -->
+<script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+ <!-- 页面右侧 TOC -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-toc@1.1.0/dist/docsify-plugin-toc.min.js"></script>
+
+
 
 </body>
 </html>
