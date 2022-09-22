@@ -157,3 +157,5 @@ Spring bean的生命周期可以分为四个阶段和多个扩展点
 - BeanFactoryAware
 - EnvironmentAware
 - ApplicatonContextAware
+
+![img](../../../assets/img/spring-05.png)
