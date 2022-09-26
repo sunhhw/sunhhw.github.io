@@ -68,6 +68,7 @@
 - [分布式ID-雪花算法](/md/idea-plugin/cloud/2022-03-08-雪花算法.md)
 - [ES的基本操作](/md/idea-plugin/cloud/2022-06-02-ES.md)
 - [Springboot-ES整合](/md/idea-plugin/cloud/2022-06-05-Springboot-ES.md)
+- [分布式事务解决方案](/md/idea-plugin/cloud/2022-03-30-分布式事物解决方案.md)
 
 #### 🚌 扩展
 

@@ -5,9 +5,11 @@ public interface Aware {
 }
 ```
 
-**Aware接口是标记接口,用于标记Bean有资格通过回调拦截方法由Spring容器通知特定对象,例如Bean实现了ApplicationContextAware接口,Spring将向其中注入一个ApplicationContext对象.**
+**Aware接口是标记接口,如果检测到一个bean实现了Aware接口，则能在bean中获取相应的Spring资源,例如Bean实现了ApplicationContextAware接口,Spring将向其中注入一个ApplicationContext对象.**
 
 常见的还有BeanFactoryAware,ApplicationContextAware
+
+![img](../../../assets/img/aware-02.png)
 
 ## 二、常见用法
 

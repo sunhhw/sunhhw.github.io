@@ -49,13 +49,13 @@
   - [jvm垃圾回收机制](/md/idea-plugin/jvm/2022-07-28-jvm垃圾回收.md)
 - :leaves: 微服务
   - [微服务概要](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-03-25-微服务总体概述.md)
-
   - [Nacos-注册中心和配置中心](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-03-25-Nacos.md)
   - [OpenFeign-服务间调用、负载均衡、服务降级](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-03-25-OpenFeign.md)
   - [Gateway-网关](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-03-25-Gateway.md)
   - [分布式ID-雪花算法](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-03-08-雪花算法.md)
   - [ES的基本操作](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-06-02-ES.md)
   - [Springboot-ES整合](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-06-05-Springboot-ES.md)
+  - [分布式事务解决方案](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-03-30-分布式事物解决方案.md)
 - 🚌 扩展
   - [自定义spring-boot-starter](https://sunhhw.github.io/#/md/idea-plugin/other/2022-03-22-自定义starter.md)
   - [数据库重构工具-Liquibase](https://sunhhw.github.io/#/md/idea-plugin/other/2022-04-01-Liquibase.md)
@@ -64,3 +64,4 @@
   - [websocket](https://sunhhw.github.io/#/md/idea-plugin/other/2022-08-30-websocket.md)
   - [git基本操作](https://sunhhw.github.io/#/md/idea-plugin/other/2022-07-22-Git.md)
   - [docker部署项目](https://sunhhw.github.io/#/md/idea-plugin/other/2022-09-21-docker部署项目.md)
+

@@ -127,7 +127,23 @@ Bean使用中：工作，只有对社会没有用的人才放假。。
 10.自定义destroy方法:睡了，别想叫醒我
 ```
 
-## 三、总结
+### 三、BeanFactory和FactoryBean的区别
+
+**BeanFactory：**
+
+BeanFactory以Factory结尾，表示他是一个工厂类(接口)，它是负责生产和管理bean的一个工厂，在spring中，BeanFactory是IOC容器的核心接口，它的职责包括：实例化，定位，配置对象和建立这些对象之间的依赖，BeanFactory只是个接口，并没有具体实现，它的很多实现比如XmlBeanFactory就是常用的一个，将实现以XML方式描述组成应用的对象以及对象之间的依赖。
+
+其中一个实现是ApplicationContext，它不但包含了BeanFactory的作用，同时还有更多的扩展，通常使用这个较多。
+
+**FactoryBean:**
+
+以Bean结尾，表示它是一个Bean，不同于普通Bean的是，它是实现了FactoryBean<T>接口的Bean，根据该Bean的ID从BeanFactory中获取实际上的FactoryBean的getObject（）返回的对象；
+
+一般情况下，Spring通过反射机制利用bean的class属性指定实例化bean。在某些情况下，实例化bean过程比较复杂，如果按照bean的生命周期，则需要在bean中提供大量的配置信息。配置方式的灵活性是受限的，这时如果采用编码的方式可能会得到一个简单的方案，spring为此提供了一个FactoryBean的工厂类接口，用户可以通过实现该接口定制实例化bean的逻辑。
+
+FactoryBean通常用来创建比较负责的bean，一般的bean直接用xml配置即可，但是如果一个bean的创建过程涉及到其他很多的bean和复杂的逻辑，用xml配置比较困难，则可以考虑使用FactroyBean。
+
+## 四、总结
 
 Spring bean的生命周期可以分为四个阶段和多个扩展点
 
@@ -159,3 +175,4 @@ Spring bean的生命周期可以分为四个阶段和多个扩展点
 - ApplicatonContextAware
 
 ![img](../../../assets/img/spring-05.png)
+
