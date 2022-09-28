@@ -79,4 +79,5 @@
 - [websocket](/md/idea-plugin/other/2022-08-30-websocket.md)
 - [git基本操作](/md/idea-plugin/other/2022-07-22-Git.md)
 - [docker部署项目](/md/idea-plugin/other/2022-09-21-docker部署项目.md)
+- [数据脱敏](/md/idea-plugin/other/2022-09-28-数据脱敏.md)
 
