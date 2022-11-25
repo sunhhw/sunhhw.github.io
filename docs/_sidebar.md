@@ -67,4 +67,5 @@
        - [docker部署项目](/md/idea-plugin/other/2022-09-21-docker部署项目.md)
        - [数据脱敏](/md/idea-plugin/other/2022-09-28-数据脱敏.md)
        - [easyExcel](/md/idea-plugin/other/2022-11-16-easyExcel.md)
+       - [优雅的日志记录](/md/idea-plugin/other/2022-11-22-优雅的日志记录.md)
 
