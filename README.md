@@ -56,6 +56,7 @@
   - [ES的基本操作](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-06-02-ES.md)
   - [Springboot-ES整合](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-06-05-Springboot-ES.md)
   - [分布式事务解决方案](https://sunhhw.github.io/#/md/idea-plugin/cloud/2022-03-30-分布式事物解决方案.md)
+  - [xxl-job的基本使用](https://sunhhw.github.io/#/md/idea-plugin/cloud/2023-02-16-XxlJob.md)
 - 🚌 扩展
   - [自定义spring-boot-starter](https://sunhhw.github.io/#/md/idea-plugin/other/2022-03-22-自定义starter.md)
   - [数据库重构工具-Liquibase](https://sunhhw.github.io/#/md/idea-plugin/other/2022-04-01-Liquibase.md)

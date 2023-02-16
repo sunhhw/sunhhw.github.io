@@ -69,6 +69,7 @@
 - [ES的基本操作](/md/idea-plugin/cloud/2022-06-02-ES.md)
 - [Springboot-ES整合](/md/idea-plugin/cloud/2022-06-05-Springboot-ES.md)
 - [分布式事务解决方案](/md/idea-plugin/cloud/2022-03-30-分布式事物解决方案.md)
+- [xxl-job的基本使用](/md/idea-plugin/cloud/2023-02-16-XxlJob.md)
 
 #### 🚌 扩展
 
