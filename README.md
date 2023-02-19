@@ -5,6 +5,7 @@
   - [位运算](https://sunhhw.github.io/#/md/idea-plugin/java/2022-02-12-位运算.md)
   - [HashMap核心](https://sunhhw.github.io/#/md/idea-plugin/java/2022-03-12-HashMap.md)
   - [ThreadLocal](https://sunhhw.github.io/#/md/idea-plugin/java/2022-03-19-ThreadLocal.md)
+  - [ThreadLocal父子间通信](https://sunhhw.github.io/#/md/idea-plugin/java/2023-02-18-ThreadLocal父子间通信的4中姿势.md)
   - [动态代理](https://sunhhw.github.io/#/md/idea-plugin/java/2022-04-16-动态代理.md)
   - [javap的使用](https://sunhhw.github.io/#/md/idea-plugin/java/2022-05-07-javap使用.md)
 - 🔀 多线程与并发
