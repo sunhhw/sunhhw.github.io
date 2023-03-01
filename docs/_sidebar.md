@@ -49,9 +49,11 @@
    - 🚁 JVM
        - [jvm内存模型](/md/idea-plugin/jvm/2022-07-28-jvm内存模型.md)
        - [jvm垃圾回收机制](/md/idea-plugin/jvm/2022-07-28-jvm垃圾回收.md)
+       - [OOM和CPU飙升排查](/md/idea-plugin/jvm/2022-07-28-jvm故障调优.md)
    - 🍀 微服务
        - [微服务概要](/md/idea-plugin/cloud/2022-03-25-微服务总体概述.md)
        - [Nacos-注册中心和配置中心](/md/idea-plugin/cloud/2022-03-25-Nacos.md)
+       - [Nacos服务跨分组调用](/md/idea-plugin/cloud/2023-02-29-nacos服务跨分组调用.md)
        - [OpenFeign-服务间调用、负载均衡、服务降级](/md/idea-plugin/cloud/2022-03-25-OpenFeign.md)
        - [Gateway-网关](/md/idea-plugin/cloud/2022-03-25-Gateway.md)
        - [分布式ID-雪花算法](/md/idea-plugin/cloud/2022-03-08-雪花算法.md)
@@ -59,6 +61,7 @@
        - [Springboot-ES整合](/md/idea-plugin/cloud/2022-06-05-Springboot-ES.md)
        - [分布式事务解决方案](/md/idea-plugin/cloud/2022-03-30-分布式事物解决方案.md)
        - [xxl-job的基本使用](/md/idea-plugin/cloud/2023-02-16-XxlJob.md)
+       - [MDC实现微服务链路追踪](/md/idea-plugin/cloud/2023-02-29-MDC实现微服务链路追踪.md)
    - 🚌 扩展
        - [自定义spring-boot-starter](/md/idea-plugin/other/2022-03-22-自定义starter.md)
        - [数据库重构工具-Liquibase](/md/idea-plugin/other/2022-04-01-Liquibase.md)

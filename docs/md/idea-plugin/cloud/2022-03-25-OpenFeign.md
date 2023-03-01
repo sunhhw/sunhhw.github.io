@@ -25,7 +25,7 @@ openFeign: 基于Http连接，相对于速度慢点
 
 ```java
 // 开启openFeign
-@EnableFeignClients
+@EnableFeignClients(basePackages = "com.sun.provider")
 @EnableDiscoveryClient
 @SpringBootApplication
 public class OpenFeignApplication8003 {
