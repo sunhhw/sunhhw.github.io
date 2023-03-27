@@ -50,6 +50,7 @@
        - [jvm内存模型](/md/idea-plugin/jvm/2022-07-28-jvm内存模型.md)
        - [jvm垃圾回收机制](/md/idea-plugin/jvm/2022-07-28-jvm垃圾回收.md)
        - [OOM和CPU飙升排查](/md/idea-plugin/jvm/2022-07-28-jvm故障调优.md)
+       - [GC原理和FGC排查](/md/idea-plugin/jvm/2023-02-28-GC原理和FGC排查.md)
    - 🍀 微服务
        - [微服务概要](/md/idea-plugin/cloud/2022-03-25-微服务总体概述.md)
        - [Nacos-注册中心和配置中心](/md/idea-plugin/cloud/2022-03-25-Nacos.md)
@@ -73,4 +74,5 @@
        - [数据脱敏](/md/idea-plugin/other/2022-09-28-数据脱敏.md)
        - [easyExcel](/md/idea-plugin/other/2022-11-16-easyExcel.md)
        - [优雅的日志记录](/md/idea-plugin/other/2022-11-22-优雅的日志记录.md)
+       - [https加密算法解析](/md/idea-plugin/other/2023-03-13-加密算法.md)
 
