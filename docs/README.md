@@ -89,4 +89,5 @@
 - [easyExcel](/md/idea-plugin/other/2022-11-16-easyExcel.md)
 - [优雅的日志记录](/md/idea-plugin/other/2022-11-22-优雅的日志记录.md)
 - [https加密算法解析](/md/idea-plugin/other/2023-03-13-加密算法.md)
+- [接口安全处理](/md/idea-plugin/other/2023-03-22-接口安全处理.md)
 
