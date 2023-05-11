@@ -74,4 +74,8 @@
   - [easyExcel](https://sunhhw.github.io/#/md/idea-plugin/other/2022-11-16-easyExcel.md)
   - [优雅的日志记录](https://sunhhw.github.io/#/md/idea-plugin/other/2022-11-22-优雅的日志记录.md)
   - [https加密算法解析](https://sunhhw.github.io/#/md/idea-plugin/other/2023-03-13-加密算法.md)
+<<<<<<< HEAD
   - [SPI机制](https://sunhhw.github.io/#/md/idea-plugin/other/2023-05-11-SPI机制.md)
+=======
+  - [接口安全处理](https://sunhhw.github.io/#/md/idea-plugin/other/2023-03-22-接口安全处理.md)
+>>>>>>> 1f1bced17ec794d0f1e5a96b5069a440d6bc3407
